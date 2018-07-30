@@ -10,7 +10,7 @@ from builtins import input
 def main():
     tzone = []
     slow_print(bcolors.BOLD+"Enter the name of continent,country or capital city you wish to display time of.\n")
-    slow_print("When you are done adding entries, type 'q' and hit enter\nPress ctrl-c to quit the program anytime.\n")
+    slow_print("When you are done adding entries, type 'q' or leave the input blank and hit enter\nPress ctrl-c to quit the program anytime.\n")
     slow_print("...\n",0.2),
     sys.stdout.write("\033[F")
     sys.stdout.write("\033[K")
