@@ -19,14 +19,10 @@ def get_time(tz):
 
 
 class bcolors:
-    HEADER = '\033[95m'
-    BLUE = '\033[94m'
     GREEN = '\033[92m'
-    WARNING = '\033[93m'
     ORANGE = '\033[91m'
     ENDC = '\033[0m'
     BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
 
 def slow_print(s,t=0.02):
     for x in s:
